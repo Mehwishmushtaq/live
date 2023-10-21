@@ -81,19 +81,23 @@
 /* card styles*/
 
 .card-container {
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  margin: 20px 0;
+  margin: 20px 0; */
+  flex-direction: column; /* Stack cards vertically on smaller screens */
+
 }
 
 .card {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 30%;
   background: #ecf0f1;
   margin: 0 10px;
-  border-radius: 20px;
+  border-radius: 20px; */
+  width: 100%; /* Make the cards full width on smaller screens */
+  margin: 10px 0; /* Add vertical spacing between cards */
 }
 
 .card h3 {
