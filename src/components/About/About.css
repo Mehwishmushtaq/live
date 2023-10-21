@@ -1,0 +1,200 @@
+/* CSS in your About.css or a separate CSS file */
+
+.about-page {
+  text-align: justify;
+  padding: 20px;
+  background: #f0f0f0;
+  /* Setting a background color for the entire section */
+}
+
+.about-banner {
+  position: relative;
+  text-align: center;
+  /* Center the "About Us" title horizontally */
+  margin: 20px 0;
+  /* Adding some spacing around the banner */
+}
+
+.about-banner-image {
+  width: 100%;
+  /* Adjust the image width as needed */
+  max-height: 70vh;
+  display: block;
+  border: 1px solid #ddd;
+  /* Adding a border to the image */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Adding a subtle box shadow */
+  border-radius: 10px;
+}
+
+.about-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background: rgba(0, 0, 0, 0.7); Semi-transparent background for the text */
+  color: #fff;
+  padding: 10px 20px;
+  /* Add padding to the text box */
+  border-radius: 5px;
+  /* Add rounded corners to the text box */
+}
+
+.h1 {
+  font-size: 25px;
+  margin: 0;
+  color: #30336b;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.about-banner-text h2 {
+  font-size: 24px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.about-content {
+  text-align: left; /* Center the content text horizontally */
+  justify-content: center;
+  background: #bdc3c7; /* Set a white background for the content */
+  padding: 20px 0; /* Equal padding on top and bottom, 0 on right and left */
+  border: 1px solid #ddd; /* Adding a border around the content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
+  border-radius: 10px;
+  width: 200vh;
+  margin-left: 10px;
+  font-weight: 500;
+  color:#2c3e50;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .about-content {
+    width: 100%; /* Make it full width for smaller screens */
+    margin: 0; /* Remove left margin for smaller screens */
+  }
+}
+
+/* card styles*/
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+  background: #ecf0f1;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+.card h3 {
+  padding-top: 50px;
+  font-size: 18px;
+  margin: 0;
+  color: #16a085;
+}
+
+.ratings{
+  color: #f4c20d;
+}
+
+.card p {
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.card-container .card img {
+  width: 100%; /* Ensures the image takes the full width of its container */
+  height: auto; /* Maintains the aspect ratio */
+  display: block; /* Remove any default inline spacing */
+}
+
+.card-container .card img:not(:first-child) {
+  margin-top: 10px; /* Add a margin to separate images */
+}
+
+/* Style the "Email Us" and "Subscribe" container */
+.email-us {
+  /* background: #fff; Background color */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the content horizontally */
+}
+
+/* Style the "Email Us" title */
+.email-us {
+  display:flex;
+  align-items: center;
+  margin-left: 2vh;
+  width: fit-content;
+}
+
+.email-us h2 {
+  font-size: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color:#30336b;
+}
+
+.email-us input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+/* Style the "Subscribe" button */
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px ;
+}
+
+.social-icons button {
+  background:#30336b;
+  color: #fff;
+  border: none;
+  padding: 5px 15px ;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px; /* Add margin for spacing */
+  margin-right: 50px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 5px; /* Add margin for spacing */
+}
+.social-icons a1 {
+  text-decoration: none;
+  color: #e95950;
+  margin: 5px; /* Add margin for spacing */
+}
+.social-icons a2 {
+  text-decoration: none;
+  color: #f4c20d;
+  margin: 5px; /* Add margin for spacing */
+}
+
+
+
+/* On hover, change the color of the icons */
+.social-icons a:hover {
+  color: #0056b3; /* Hover color */
+}
