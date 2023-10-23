@@ -81,11 +81,16 @@
 /* card styles*/
 
 .card-container {
-  /* display: flex;
-  justify-content: space-around;
-  margin: 20px 0; */
-  flex-direction: column; /* Stack cards vertically on smaller screens */
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(3, 1fr); /* Three columns for laptop screen */
+  gap: 20px; /* Add some spacing between cards */
+}
 
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Single column for mobile screens */
+  }
 }
 
 .card {
