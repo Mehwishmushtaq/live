@@ -128,7 +128,7 @@ const NavBar = () => {
               <Nav.Item>
                 <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
                   <img src="https://images.mobilefun.co.uk/graphics/60pixelc/15832.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Cases</span>
+                  <span className="nav-link-label">Phone Cases</span>
                 </Link>
               </Nav.Item>
               <hr className="m-0" />
@@ -144,7 +144,7 @@ const NavBar = () => {
               <Nav.Item>
                 <Link aria-label="Go to All products Page" className="navbar-link row" to="/all products" onClick={() => setExpand(false)}>
                   <img src="https://images.mobilefun.co.uk/graphics/60pixelc/16819.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Car Phone Holders</span>
+                  <span className="nav-link-label">Phone Holders</span>
                 </Link>
               </Nav.Item>
               <hr className="m-0" />
@@ -169,14 +169,6 @@ const NavBar = () => {
                 <Link aria-label="Go to Cart Page" className="navbar-link row" to="/cart" onClick={() => setExpand(false)}>
                   <img src="https://static.priceoye.pk/images/home/power-banks.svg" className="nav-img" alt='' />
                   <span className="nav-link-label">Power Banks</span>
-                </Link>
-              </Nav.Item>
-              <hr className="m-0" />
-
-              <Nav.Item>
-                <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
-                  <img src="https://static.priceoye.pk/images/home/smart-watches.svg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Smart Watches</span>
                 </Link>
               </Nav.Item>
               <hr className="m-0" />

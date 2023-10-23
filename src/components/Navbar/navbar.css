@@ -10,7 +10,13 @@
 
 .input-group {
 	width: 37%;
+	position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+	margin-left: 5rem;
 }
+
 
 #button-addon2 {
 	color: white;
@@ -128,7 +134,7 @@
 	font-size: 25px;
 	font-weight: 500;
 	color: black;
-	margin: 0;
+	padding-left: 10px;
 }
 
 .navbar-link {
@@ -143,7 +149,7 @@
 }
 
 .nav-img {
-	width: 65px;
+	width: 60px;
 }
 
 .nav-link-label {
