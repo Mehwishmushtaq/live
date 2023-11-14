@@ -8,6 +8,8 @@ import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import "../pages/productDetails.css";
 import Wrapper from '../components/wrapper/Wrapper';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar, faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 
 const ProductDetails = () => {
     const [listSelected, setListSelected] = useState("desc");
@@ -60,11 +62,11 @@ const ProductDetails = () => {
                             <h2>{selectedProduct?.productName}</h2>
                             <div className="rate">
                                 <div className="stars">
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
+                                    <FontAwesomeIcon icon={faStar} />
+                                    <FontAwesomeIcon icon={faStar} />
+                                    <FontAwesomeIcon icon={faStar} />
+                                    <FontAwesomeIcon icon={faStar} />
+                                    <FontAwesomeIcon icon={faStar} />
                                 </div>
                                 <span>{selectedProduct?.avgRating} ratings</span>
                             </div>
@@ -75,12 +77,47 @@ const ProductDetails = () => {
                             <p>{selectedProduct?.shortDesc}</p>
 
                             <span className="qty-counter">
-                                <button className="incCart" onClick={increment}><i className="fa fa-solid fa-plus"></i>+</button>
+                                <button className="incCart" onClick={increment}><FontAwesomeIcon icon={faPlus} /></button>
                                 <input className="qty-input" type="number" placeholder="Qty" value={count} onChange={handleQuantityChange} />
-                                <button className="desCart" onClick={decrement}><i className="fa fa-solid fa-minus" />-</button>
+                                <button className="desCart" onClick={decrement}><FontAwesomeIcon icon={faMinus} /></button>
                             </span>
 
                             <button aria-label="Add" type="submit" className="add" onClick={() => handelAdd(selectedProduct, count)}>Add To Cart</button>
+                            <section className="product-description">
+                                <Container>
+                                    <h3>Details</h3>
+                                    <p>Key Features for Purchasing this case?</p>
+                                    <ul>
+                                        <li>360-degree protection</li>
+                                        <li>Wallet case</li>
+                                        <li>Premium gold</li>
+                                        <li>Magnetic clasp</li>
+                                        <li>PU leather</li>
+                                        <li>Strong durability</li>
+                                        <li>Integrated card slots</li>
+
+                                    </ul>
+                                    <hr/>
+                                    <h4>Product Description</h4>
+                                    <h6>Protection</h6>
+                                    <p>{selectedProduct?.protectionDescription}</p>
+                                    <h6>Durability</h6>
+                                    <p>{selectedProduct?.durabilityDescription}</p>
+                                    <h6>Material</h6>
+                                    <p>{selectedProduct?.materialDescription}</p>
+                                    <h6>Packing and Brand</h6>
+                                    <p>{selectedProduct?.packingDescription}</p>
+                                    <h6>Key Details</h6>
+                                    <p>{selectedProduct?.brandKeyDetails}</p>
+                                    <p>Mobile Lyme ID: L-5982</p>
+                                    <p>Brand Name: Dux Ducis</p>
+                                    <p>EAN: 5060974442218</p>
+                                    <p>Colour: Gold</p>
+
+                                    <h6>Box Contains</h6>
+                                    <p>{selectedProduct?.boxContainsDescription}</p>
+                                </Container>
+                            </section>
                         </Col>
                     </Row>
                 </Container>

@@ -24,22 +24,22 @@ const DrawerNav = () => {
          subRoutes: [
             {
                id: 0,
-               name: "Wireless headphones",
-               route: "/shop"
+               name: "Cases",
+               route: "/samsung-cases"
             },
             {
                id: 1,
-               name: "Earbuds",
-               route: "/shop/08"
+               name: "Screen Protectors",
+               route: "/screen-protectorMain"
             },
             {
                id: 2,
-               name: "Hand free",
+               name: "Phone Holders",
                route: "/shop/23"
             },
             {
                id: 3,
-               name: "Data Cable",
+               name: "Wireless Earbuds",
                route: "/header-2/sub-menu-1"
             },
             {

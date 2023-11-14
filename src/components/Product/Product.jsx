@@ -4,6 +4,9 @@ import "./product.css"
 import { useNavigate } from "react-router-dom";
 import { DataContainer } from "../../App";
 import { toast } from "react-toastify";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar} from '@fortawesome/free-solid-svg-icons';
+
 
 const Product = ({ title, productItem, addToCart }) => {
     const { setSelectedProduct } = useContext(DataContainer);
@@ -34,17 +37,19 @@ const Product = ({ title, productItem, addToCart }) => {
                     {productItem.productName}
                 </h3>
                 <div className="rate">
-                    <i className="fa fa-solid fa-star"></i>
-                    <i className="fa fa-solid fa-star"></i>
-                    <i className="fa fa-solid fa-star"></i>
-                    <i className="fa fa-solid fa-star"></i>
-                    <i className="fa fa-solid fa-star"></i>
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+
                 </div>
 
                 <div className="price">
                     <h4>${productItem.price}</h4>
 
                     <button aria-label="Add" type="submit" className="add" onClick={() => handelAdd(productItem)}>
+                    {/* <FontAwesomeIcon icon={faPlus} /> */}
 
                     </button>
                 </div>

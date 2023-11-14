@@ -11,3 +11,6 @@
     margin: 10px; /* Add margin to space the images */
   }
   
+  .home-banner img{
+   width: 100%;
+  }

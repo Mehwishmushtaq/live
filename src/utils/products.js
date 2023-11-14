@@ -36,37 +36,82 @@ import holderSlide from "../Images/holder.webp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCreditCard, faClock, faTruck, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
+// Samsung FE
+
+import SamsungFE1 from "../Images/FE1.jpg";
+import SamsungFE2 from "../Images/FE2.jpg";
+import SamsungFE3 from "../Images/FE3.jpg";
+import SamsungFE4 from "../Images/FE4.jpg";
+import SamsungFE5 from "../Images/FE5.jpg";
+import SamsungF6 from "../Images/FE6.jpg";
+import SamsungFE7 from "../Images/FE7.jpg";
+import SamsungFE8 from "../Images/FE8.jpg";
+import SamsungFE9 from "../Images/FE9.jpg";
+import SamsungFE10 from "../Images/FE10.jpg";
+import SamsungFE11 from "../Images/FE11.jpg";
+import SamsungFE12 from "../Images/FE12.jpg";
+
+//Samsung Plus
+
+import SamsungPlus1 from "../Images/plus1.jpg";
+import SamsungPlus2 from "../Images/plus2.jpg";
+import SamsungPlus3 from "../Images/plus3.jpg";
+import SamsungPlus4 from "../Images/plus4.jpg";
+import SamsungPlus5 from "../Images/plus5.jpg";
+import SamsungPlus6 from "../Images/plus6.jpg";
+import SamsungPlus7 from "../Images/plus7.jpg";
+import SamsungPlus8 from "../Images/plus8.jpg";
+import SamsungPlus9 from "../Images/plus9.jpg";
+import SamsungPlus10 from "../Images/plus10.jpg";
+import SamsungPlus11 from "../Images/plus11.jpg";
+import SamsungPlus12 from "../Images/plus12.jpg";
+
+//iPhone Cases Page 
+import IPhone1 from "../Images/iphone1.jpg";
+import IPhone2 from "../Images/iphone2.jpg";
+import IPhone3 from "../Images/iphone3.jpg";
+import IPhone4 from "../Images/iphone4.jpg";
+import IPhone5 from "../Images/iphone5.jpg";
+import IPhone6 from "../Images/iphone6.jpg";
+import IPhone7 from "../Images/iphone7.jpg";
+import IPhone8 from "../Images/iphone8.jpg";
+import IPhone9 from "../Images/iphone9.jpg";
+import IPhone10 from "../Images/iphone10.jpg";
+import IPhone11 from "../Images/iphone11.jpg";
+import IPhone12 from "../Images/iphone12.jpg";
+
+
 
 
 export const SliderData = [
   {
-      id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Unbeatable deals on your favorite mobile accessories! Shop now for attractive and effective mobile gadgets and receive a 50% discount on your first purchase.",
-      cover: caseSlide,
+    id: 1,
+    title: "50% Off For Your First Shopping",
+    desc: "Unbeatable deals on your favorite mobile accessories! Shop now for attractive and effective mobile gadgets and receive a 50% discount on your first purchase.",
+    cover: caseSlide,
   },
   {
-      id: 2,
-      title: "The Latest in Mobile Tech Gear",
-      desc: "Explore the cutting-edge world of mobile technology with our newest accessories, which are designed to take your smartphone experience to the next level.",
-      cover: phone08,
+    id: 2,
+    title: "The Latest in Mobile Tech Gear",
+    desc: "Explore the cutting-edge world of mobile technology with our newest accessories, which are designed to take your smartphone experience to the next level.",
+    cover: phone08,
   },
   {
-      id: 3,
-      title: "Enhance Your Smartphone Experience",
-      desc: "Enhance your smartphone experience with our carefully curated assortment of mobile accessories designed to improve usefulness, style, and convenience.",
-      cover: wireless01,
+    id: 3,
+    title: "Enhance Your Smartphone Experience",
+    desc: "Enhance your smartphone experience with our carefully curated assortment of mobile accessories designed to improve usefulness, style, and convenience.",
+    cover: wireless01,
   },
   {
-      id: 4,
-      title: "Must-Have Mobile Accessories",
-      desc: "Explore our unique mobile accessories designed to improve your daily smartphone experience, whether it's boosting work or maximizing enjoyment on the go.",
-      cover: holderSlide,
+    id: 4,
+    title: "Must-Have Mobile Accessories",
+    desc: "Explore our unique mobile accessories designed to improve your daily smartphone experience, whether it's boosting work or maximizing enjoyment on the go.",
+    cover: holderSlide,
   },
 ];
 
 export const serviceData = [
- 
+
   {
     icon: <FontAwesomeIcon icon={faCreditCard} />,
     title: "1 Year",
@@ -97,11 +142,11 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Samsung Protector ",
-    imgUrl: productImg01,
+    productName: "Dux Ducis Pink Leather-Style Stand Wallet Case",
+    imgUrl: SamsungFE1,
     category: "accessory",
     price: 193,
-    discount:30,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -116,11 +161,11 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Samsung Wireless Earbuds",
-    imgUrl: productImg02,
+    productName: "Nillkin Super Frosted Shield Pro Green Case",
+    imgUrl: SamsungFE2,
     category: "accessory",
     price: 253,
-    discount:20,
+    discount: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -139,11 +184,11 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Olixar Wireless Earbuds",
-    imgUrl: productImg08,
+    productName: "Clear View Black Wallet Case",
+    imgUrl: SamsungFE3,
     category: "chair",
     price: 89,
-    discount:15,
+    discount: 15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -162,11 +207,11 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Maxlife Lightning",
-    imgUrl: productImg09,
+    productName: "Nillkin Black Super Frosted Shield Pro Case",
+    imgUrl: SamsungFE4,
     category: "chair",
     price: 112,
-    discount:35,
+    discount: 35,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -185,11 +230,11 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Bluetooth Speaker",
-    imgUrl: productImg06,
+    productName: "Ultra-Thin 100% Clear Case ",
+    imgUrl: SamsungFE5,
     category: "mobile",
     price: 599,
-    discount:10,
+    discount: 10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -208,11 +253,11 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "Galaxy Power Bank",
-    imgUrl: productImg007,
+    productName: "Black Leather-Style Wallet Case",
+    imgUrl: SamsungF6,
     category: "mobile",
     price: 799,
-    discount:5,
+    discount: 5,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -231,11 +276,11 @@ export const discoutProducts = [
   },
   {
     id: "01",
-    productName: "Apple Phone Case",
-    imgUrl: appleCase1,
+    productName: "Official Samsung Clear Cover Transparent Case",
+    imgUrl: SamsungFE7,
     category: "accessory",
     price: 193,
-    discount:30,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -250,8 +295,8 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Apple Air Tag ",
-    imgUrl: productImg04,
+    productName: "Official Samsung Clear Cover Transparent Gadget Case",
+    imgUrl: SamsungFE8,
     category: "accessory",
     price: 253,
     shortDesc:
@@ -272,14 +317,14 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Vivo Bluetooth Speaker",
-    imgUrl: blueToothSpeaker,
+    productName: "Official Samsung Silicone Cover Apricot Case",
+    imgUrl: SamsungFE9,
     category: "accessory",
     price: 253,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Lorem ipsum door sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
       {
         rating: 4.8,
@@ -294,11 +339,49 @@ export const discoutProducts = [
   },
   {
     id: "01",
-    productName: " Protector ",
-    imgUrl: productImg01,
+    productName: "Official Samsung Silicone Cover Graphite Case",
+    imgUrl: SamsungFE10,
     category: "accessory",
     price: 193,
-    discount:30,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "01",
+    productName: "Official Samsung Silicone Cover Mint Case",
+    imgUrl: SamsungFE11,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "01",
+    productName: "Official Samsung Silicone Cover White Case",
+    imgUrl: SamsungFE12,
+    category: "accessory",
+    price: 193,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -315,7 +398,526 @@ export const discoutProducts = [
 
 
 
+
 ]
+
+
+export const SamsungGalaxyPlus = [
+  {
+    id: "01",
+    productName: "Olixar Sentinel Black Case And Glass Screen Protector",
+    imgUrl: SamsungPlus1,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "02",
+    productName: "Official Samsung Leather Cover Camel Case",
+    imgUrl: SamsungPlus2,
+    category: "accessory",
+    price: 253,
+    discount: 20,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "03",
+    productName: "Olixar Novashield Black Bumper Case",
+    imgUrl: SamsungPlus3,
+    category: "chair",
+    price: 89,
+    discount: 15,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "04",
+    productName: "Ghostek Nautical 4 Clear Waterproof Case With Holster",
+    imgUrl: SamsungPlus4,
+    category: "chair",
+    price: 112,
+    discount: 35,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "05",
+    productName: "LoveCases White Cherry Blossom Black Gel Case",
+    imgUrl: SamsungPlus5,
+    category: "mobile",
+    price: 599,
+    discount: 10,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "06",
+    productName: "Official Samsung Silicone Cover Grip Black Case",
+    imgUrl: SamsungPlus6,
+    category: "mobile",
+    price: 799,
+    discount: 5,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "07",
+    productName: "Olixar Purple Case with Kickstand",
+    imgUrl: SamsungPlus7,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "08",
+    productName: "Olixar Ultra-Thin 100% Clear Case",
+    imgUrl: SamsungPlus8,
+    category: "accessory",
+    price: 253,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "09",
+    productName: "Ghostek Covert 6 Smoke Ultra-Thin Clear Case",
+    imgUrl: SamsungPlus9,
+    category: "accessory",
+    price: 253,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum door sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "10",
+    productName: "Ringke Fusion X Design Camo Black Tough Case",
+    imgUrl: SamsungPlus10,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "11",
+    productName: "LoveCases White Cherry Blossom Leather Wallet Case",
+    imgUrl: SamsungPlus11,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "12",
+    productName: "Otterbox Strada Black Leather Wallet Case",
+    imgUrl: SamsungPlus12,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+
+]
+
+export const IPhoneCases = [
+  {
+    id: "01",
+    productName: "Superstar Cover for iPhone XS",
+    imgUrl: IPhone1,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "02",
+    productName: "iPhone 15 Plus",
+    imgUrl: IPhone2,
+    category: "accessory",
+    price: 253,
+    discount: 20,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "03",
+    productName: "iPhone 15 Pro",
+    imgUrl: IPhone3,
+    category: "chair",
+    price: 89,
+    discount: 15,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "04",
+    productName: "iPhone 14",
+    imgUrl: IPhone4,
+    category: "chair",
+    price: 112,
+    discount: 35,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "05",
+    productName: "iPhone SE 2022",
+    imgUrl: IPhone5,
+    category: "mobile",
+    price: 599,
+    discount: 10,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "06",
+    productName: "iPhone 11 Pro Max",
+    imgUrl: IPhone6,
+    category: "mobile",
+    price: 799,
+    discount: 5,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "07",
+    productName: "iPhone XR",
+    imgUrl: IPhone7,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "08",
+    productName: "Olixar Black Leather-Style Wallet Case",
+    imgUrl: IPhone8,
+    category: "accessory",
+    price: 253,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "09",
+    productName: "Olixar Camera Privacy Cover Black Case",
+    imgUrl: IPhone9,
+    category: "accessory",
+    price: 253,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum door sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "10",
+    productName: "iphone 12 PRO MAX CLEAR Case",
+    imgUrl: IPhone10,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "11",
+    productName: "Olixar Soft Silicone Pastel Pink Case",
+    imgUrl: IPhone11,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "12",
+    productName: "Olixar FlexiShield iPhone 6S Plus Gel Case",
+    imgUrl: IPhone12,
+    category: "accessory",
+    price: 193,
+    discount: 30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+
+]
+
 
 export const products = [
   {
@@ -523,7 +1125,7 @@ export const products = [
     imgUrl: productImg01,
     category: "accessory",
     price: 193,
-    discount:30,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -542,7 +1144,7 @@ export const products = [
     imgUrl: productImg02,
     category: "accessory",
     price: 253,
-    discount:20,
+    discount: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -555,7 +1157,7 @@ export const products = [
     ],
     avgRating: 4.5,
   },
-  
+
 
   {
     id: "08",

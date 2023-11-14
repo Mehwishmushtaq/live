@@ -18,12 +18,11 @@
 }
 
 .product {
-	padding: 20px;
+	padding: 5px;
 	position: relative;
 	border-radius: 8px;
 	box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
 	margin: 10px;
-	/* background-color:#dfe6e9; */
 	background-color: white;
 	width: 10rem;
 }
@@ -32,11 +31,13 @@
     margin: 10px 0;
     font-weight: 500;
     font-size: 14px;
+    font-style: oblique;
     cursor: pointer;
-    line-height: 1.2;
+    /* line-height: 1.2; */
+	
 }
 
-.product .rate i {
+.product .rate  {
 	font-size: 15px;
 	color: #ffcd4e;
 	margin: 5px 5px 5px 0;
@@ -50,11 +51,25 @@
 }
 
 .price h4 {
+	flex-direction: row;
     margin: 10px 0 10px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
+	
 }
+
+/* .price button {
+    background: #0f3460;
+    color: #fff;
+    font-size: 10px;
+    transition: 0.5s;
+    border: 1px solid rgb(3 0 71 / 9%);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    
+} */
 
 .product-like {
 	position: absolute;

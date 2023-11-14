@@ -4,7 +4,8 @@ import Section from "../components/Section"
 import { products, discoutProducts } from "../utils/products"
 import { DataContainer } from "../App"
 import SliderHome from "../components/Slider"
-import Banner from "../components/Banner/Banner";
+// import Banner from "../components/Banner/Banner";
+import HomeBanner from "../../src/Images/home-arrival.gif"
 import "./home.css"
 
 
@@ -20,20 +21,23 @@ const Home = () => {
       <SliderHome />
       <Wrapper />
       <div>
-        <Section title="Big Discount" bgColor="#BDC581" productItems={discoutProducts} addToCart={addToCart} />
+        <Section title="Big Discount" bgColor="#bdc3c7" productItems={discoutProducts} addToCart={addToCart} />
       </div>
       <div>
-        <Section title="New Arrivals" bgColor="#BDC581" productItems={newArrivalData} addToCart={addToCart} />
+        <Section title="New Arrivals" bgColor="#bdc3c7" productItems={newArrivalData} addToCart={addToCart} />
       </div>
 
-      <Banner productBgImg='https://shopon.pk/images/blog/39/Mobile-acces.jpg' />
-
-      <div>
-        <Section title="Best Sales" bgColor="#BDCF81" productItems={bestSales} addToCart={addToCart} />
+      {/* <Banner productBgImg='https://shopon.pk/images/blog/39/Mobile-acces.jpg' /> */}
+      <div className="home-banner">
+        <img src={HomeBanner} alt="" />
       </div>
 
       <div>
-        <Section title="Shop By Brands" bgColor="#BDCF81" productItems={bestSales} />
+        <Section title="Best Sales" bgColor="#bdc3c7" productItems={bestSales} addToCart={addToCart} />
+      </div>
+
+      <div>
+        <Section title="Shop By Brands" bgColor="" productItems={bestSales} />
       </div>
 
       <section className="bg-light">

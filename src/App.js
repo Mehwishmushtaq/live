@@ -2,12 +2,27 @@ import { useState, createContext, useEffect, lazy, Suspense } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
 import NavBar from "./components/Navbar/Navbar";
+import Login from "./components/Login-Page/login"
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
 import About from "./components/About/About";
 import FAQS from "./components/FAQS/FAQS";
 import Policy from "./components/Policy/Policy"
 import Blogs from "./components/Blogs/Blogs"
+import SamsungMain from "./components/SamsungCases/samsungCases"
+import SamsungFE from "./components/FE Cases/S23 FE"
+import SamsungUltra from "./components/Ultra Cases/ultra"
+import SamsungPlus from "./components/Plus Cases/plus"
+import IphoneCases from "./components/iPhoneCases/iphone"
+import SubCatgory4 from "./components/Samsubcat4/s23"
+import SubCatgory5 from "./components/Samsubcat5/zflip"
+import ScreenProtectorMain from"./components/ScreenProtMain/protector"
+import HoldersMain from"./components/HoldersMain/holders"
+import WirelessMain from"./components/Wireless/wireless"
+
+
+
+
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -69,11 +84,27 @@ function App() {
             <Route path='/shop' element={<Shop />} />
             <Route path='/shop/:id' element={<ProductDetails />} />
             <Route path='/cart' element={<Cart />} />
+            <Route path='/login' element={<Login />} />
+
             <Route path='/about' element={<About />} />
             <Route path='/faqs' element={<FAQS />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/policy' element={<Policy />} />
             <Route path='/blogs' element={<Blogs />} />
+            <Route path='/samsung-cases' element={<SamsungMain />} />
+            <Route path='/samsung-fe' element={<SamsungFE />} />
+            <Route path='/samsung-ultra' element={<SamsungUltra />} />
+            <Route path='/samsung-plus' element={<SamsungPlus />} />
+            <Route path='/samsung-s23' element={<SubCatgory4 />} />
+            <Route path='/samsung-zflip' element={<SubCatgory5 />} />
+            <Route path='/iphone-cases' element={<IphoneCases />} />
+            <Route path='/screen-protectorMain' element={<ScreenProtectorMain />} />
+            <Route path='/holders-main' element={<HoldersMain />} />
+            <Route path='/wireless' element={<WirelessMain />} />
+
+
+
+
 
           </Routes>
           <Footer />

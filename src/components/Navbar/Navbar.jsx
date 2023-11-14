@@ -8,6 +8,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import DrawerNav from '../DrawerNav/DrawerNav';
 
+
 const NavBar = () => {
   const { CartItem, setCartItem } = useContext(DataContainer);
   const [expand, setExpand] = useState(false);
@@ -29,7 +30,19 @@ const NavBar = () => {
       const storedCart = localStorage.getItem("cartItem");
       setCartItem(JSON.parse(storedCart));
     }
-  },)
+
+    // Add the event listener to the navigation element
+    const svgElement = document.querySelector(".nav-icon");
+    svgElement.addEventListener("click", function () {
+      window.location.href = '/login'; // Replace 'newPageURL' with the desired URL.
+    });
+
+    // Remove the event listener when the component unmounts
+    return () => {
+      svgElement.removeEventListener("click", () => {});
+    };
+  }, [CartItem, setCartItem]);
+
   return (
     <>
       <Navbar
@@ -124,46 +137,96 @@ const NavBar = () => {
           </div>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end flex-grow-1 pe-3">
-            
+
               <Nav.Item>
-                <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
+                <Link aria-label="Go to S23FE Page" className="navbar-link row" to="/samsung-ultra" onClick={() => setExpand(false)}>
                   <img src="https://images.mobilefun.co.uk/graphics/60pixelc/15832.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Phone Cases</span>
+                  <span className="nav-link-label">Cases</span>
                 </Link>
+                <div className="sublink">
+                  <Link aria-label="Go to Samsung Main Page" className="section-header" to="/samsung-cases" onClick={() => setExpand(false)}>
+                    <h6 className="section-header">Samsung Cases</h6>
+                  </Link>
+                  <hr className="m-0" />
+                  <Link to="/samsung-fe">Galaxy S23 FE Cases</Link>
+                  <Link to="/samsung-ultra">Galaxy S23 Ultra Cases</Link>
+                  <Link to="/samsung-plus">Galaxy S23 Plus Cases</Link>
+                  <Link to="/samsung-s23">Galaxy S23 Cases</Link>
+                  <Link to="/samsung-zflip">Galaxy Z Flip 5 Cases</Link>
+                  <Link className="section-header" to="/shop">Shop All Samsung Cases</Link>
+                  <Link aria-label="Go to iPhone Cases Page" className="section-header" to="/iphone-cases" onClick={() => setExpand(false)}>
+                    <h6 className="section-header">iPhone Cases</h6>
+                  </Link>
+                  <hr className="m-0" />
+                  <Link to="/cases">iPhone 15 Cases</Link>
+                  <Link to="/cases">iPhone 15 Pro Cases</Link>
+                  <Link to="/cases">iPhone 15 Plus Cases</Link>
+                  <h6 className="section-header">Google Cases</h6>
+                  <hr className="m-0" />
+                  <Link to="/cases">Google Pixel Fold Cases</Link>
+                  <Link to="/cases">Google Pixel 8 Cases</Link>
+                  <Link to="/cases">Google Pixel 8 Pro Cases</Link>
+                </div>
+                <hr className="m-0" />
+
               </Nav.Item>
               <hr className="m-0" />
 
               <Nav.Item>
-                <Link aria-label="Go to Featured products Page" className="navbar-link row" to="/featured products" onClick={() => setExpand(false)}>
+                <Link aria-label="Go to Screen Protector Main Page" className="navbar-link row" to="/screen-protectorMain" onClick={() => setExpand(false)}>
                   <img src="https://images.mobilefun.co.uk/graphics/60pixelc/16290.jpg" className="nav-img" alt='' />
                   <span className="nav-link-label">Screen Protectors</span>
                 </Link>
+                <div className="sublink">
+                  <Link aria-label="Go to Samsung Main Page" className="section-header" to="/samsung-cases" onClick={() => setExpand(false)}>
+                    <h6 className="section-header">Samsung Screen Protectors</h6>
+                  </Link>
+                  <hr className="m-0" />
+                  <Link to="/samsung-fe">Galaxy S23 FE Screen Protectors</Link>
+                  <Link to="/samsung-ultra">Galaxy S23 Ultra Screen Protectors</Link>
+                  <Link to="/samsung-plus">Galaxy S23 Plus Screen Protectors</Link>
+                  <Link to="/samsung-s23">Galaxy S23 Screen Protectors</Link>
+                  <Link to="/samsung-zflip">Galaxy Z Flip 5 Screen Protectors</Link>
+                  <Link aria-label="Go to iPhone Cases Page" className="section-header" to="/iphone-cases" onClick={() => setExpand(false)}>
+                    <h6 className="section-header">iPhone Cases</h6>
+                  </Link>
+                  <hr className="m-0" />
+                  <Link to="/cases">iPhone 15 Cases</Link>
+                  <Link to="/cases">iPhone 15 Pro Cases</Link>
+                  <Link to="/cases">iPhone 15 Plus Cases</Link>
+                  <h6 className="section-header">Google Cases</h6>
+                  <hr className="m-0" />
+                  <Link to="/cases">Google Pixel Fold Cases</Link>
+                  <Link to="/cases">Google Pixel 8 Cases</Link>
+                  <Link to="/cases">Google Pixel 8 Pro Cases</Link>
+                </div>
+                <hr className="m-0" />
               </Nav.Item>
               <hr className="m-0" />
 
               <Nav.Item>
-                <Link aria-label="Go to All products Page" className="navbar-link row" to="/all products" onClick={() => setExpand(false)}>
+                <Link aria-label="Go to Holders Main Page" className="navbar-link row" to="/holders-main" onClick={() => setExpand(false)}>
                   <img src="https://images.mobilefun.co.uk/graphics/60pixelc/16819.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Phone Holders</span>
+                  <span className="nav-link-label">Holders</span>
                 </Link>
               </Nav.Item>
               <hr className="m-0" />
 
               <Nav.Item>
-                <Link aria-label="Go to Contact Us Page" className="navbar-link row" to="/contact us" onClick={() => setExpand(false)}>
+                <Link aria-label="Go to Contact Us Page" className="navbar-link row" to="/wireless" onClick={() => setExpand(false)}>
                   <img src="https://static.priceoye.pk/images/home/wireless-earbuds.svg" className="nav-img" alt='' />
                   <span className="nav-link-label">Wireless Earbuds</span>
                 </Link>
               </Nav.Item>
               <hr className="m-0" />
 
-              <Nav.Item>
+              {/* <Nav.Item>
                 <Link aria-label="Go to About Us Page" className="navbar-link row" to="/about us" onClick={() => setExpand(false)}>
                   <img src="https://static.priceoye.pk/images/home/bluetooth-speakers.svg" className="nav-img" alt='' />
                   <span className="nav-link-label">Bluetooth Speakers</span>
                 </Link>
               </Nav.Item>
-              <hr className="m-0" />
+              <hr className="m-0" /> */}
 
               <Nav.Item>
                 <Link aria-label="Go to Cart Page" className="navbar-link row" to="/cart" onClick={() => setExpand(false)}>
@@ -179,7 +242,7 @@ const NavBar = () => {
                   <span className="nav-link-label">Air Tag Accessories</span>
                 </Link>
               </Nav.Item>
-              
+
 
             </Nav>
           </Navbar.Collapse>

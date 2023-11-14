@@ -2,8 +2,8 @@ import Select from 'react-select';
 import { products } from '../utils/products';
 
 const options = [
-    { value: "Phone Holder", label: "Holder" },
-    { value: "Earbuds", label: "Earbuds" },
+    { value: "Samsung FE", label: "FE" },
+    { value: "Samsung Plus", label: "Plus" },
     { value: "watch", label: "Watch" },
     { value: "mobile", label: "Mobile" },
     { value: "wireless", label: "Wireless" },
@@ -35,6 +35,9 @@ const customStyles = {
     }),
 };
 
+const initialValue = { value: "", label: "Filter By Category" };
+
+
 const FilterSelect = ({setFilterList}) => {
     const handleChange = (selectedOption)=> {
         setFilterList(products.filter(item => item.category ===selectedOption.value))
@@ -42,7 +45,7 @@ const FilterSelect = ({setFilterList}) => {
     return (
     <Select
     options={options}
-    defaultValue={{ value: "", label: "Filter By Category" }}
+    defaultValue={ initialValue}
     styles={customStyles}
     onChange={handleChange}
     />

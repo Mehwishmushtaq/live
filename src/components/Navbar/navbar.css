@@ -6,6 +6,8 @@
 	box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) ;
 	font-size: 1.2rem !important;
 	/* z-index: 1000 !important; */
+	width:auto;
+	height: 80px;
 }
 
 .input-group {
@@ -154,21 +156,25 @@
 
 .nav-link-label {
 	color: black;
-	font-size: 12px !important;
-	font-weight: 300;
+	font-size: 15px !important;
+	font-weight: 500;
 	display: flex;
 	justify-content: center;
 }
 
 .nav-link-label:hover {
 	color: #0f3460;
+	background-color: #bdc3c7;
+	border-radius: 10px;
 }
 
 .nav-icon {
 	width: 30px;
 	height: 30px;
 	padding-bottom: 5px;
+	cursor: pointer;
 }
+
 
 .cart {
 	position: relative !important;
@@ -244,3 +250,82 @@
 		gap: 5px;
 	}
 }
+
+
+.sublink {
+	display: none; 
+	position:absolute; 
+	top: 100%; 
+	left: 0; 
+	background-color: #fff; 
+	border: 1px solid #ccc; 
+	padding: 5px; 
+	max-width: auto;
+  }
+  .sublink h6 {
+	color: black;
+	text-decoration: none;
+  }
+  .sublink hr {
+	color: black;
+	text-decoration: none;
+	width: 10em;
+  }
+  
+  .sublink a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	font-size: small;
+  }
+  
+  
+  .nav-item:hover .sublink {
+	display: block; 
+  }
+  
+/* Reponsiveness */
+@media (max-width: 767px) {
+	.sublink {
+	  width: 100%; 
+	  padding: 5px; 
+	}
+  
+	.sublink h6 {
+	  font-size: 16px; 
+	}
+  
+	.sublink a {
+	  font-size: 14px; 
+	  padding: 8px 0; 
+	}
+  
+	.nav-item:hover .sublink {
+	  display: block;
+	}
+  }
+
+/* Add styling for the "iPhone Cases" section */
+.section-header {
+	margin-top: 0.5rem;
+	font-weight: bold;
+  }
+  
+  .sublink h6 + hr {
+	margin-top: 0.5rem;
+  }
+  
+  .sublink a {
+	margin-left: 1rem;
+	text-decoration: none;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+  }
+  
+  .sublink a:hover {
+	text-decoration: underline;
+  }
+	
+
+
+  
