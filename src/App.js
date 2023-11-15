@@ -1,6 +1,6 @@
 import { useState, createContext, useEffect, lazy, Suspense } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import NavBar from "./components/Navbar/Navbar";
 import Login from "./components/Login-Page/login"
 import Footer from "./components/Footer/Footer";
@@ -19,6 +19,11 @@ import SubCatgory5 from "./components/Samsubcat5/zflip"
 import ScreenProtectorMain from"./components/ScreenProtMain/protector"
 import HoldersMain from"./components/HoldersMain/holders"
 import WirelessMain from"./components/Wireless/wireless"
+import ProductReviews from "./components/ProductReviews/reviews"
+import MoneyBackGuarantee from "./components/MoneyBack/moneyBack"
+import ReturnsRefunds from "./components/Refunds/refunds"
+import CancellationPolicy from "./components/CancelOrder/orderCancel"
+import TermConditions from "./components/Terms/terms"
 
 
 
@@ -101,6 +106,13 @@ function App() {
             <Route path='/screen-protectorMain' element={<ScreenProtectorMain />} />
             <Route path='/holders-main' element={<HoldersMain />} />
             <Route path='/wireless' element={<WirelessMain />} />
+            {/* Footer Pages Routes*/}
+            <Route path="/product_reviews" element={<ProductReviews/>} />
+            <Route path="/money_back_guarantee" element={<MoneyBackGuarantee/>} />
+            <Route path="/returns_refunds" element={<ReturnsRefunds/>} />
+            <Route path="/cancellation_policy" element={<CancellationPolicy/>} />
+            <Route path="/terms" element={<TermConditions/>} />
+
 
 
 

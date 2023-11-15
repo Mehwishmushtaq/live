@@ -1,6 +1,8 @@
 import React from "react"
 import "./style.css"
 import { Col, Container, Row } from "react-bootstrap"
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -27,11 +29,13 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <h2>Customer Care</h2>
               <ul>
-                <li>Help Center </li>
-                <li>How to Buy </li>
-                <li>Track Your Order </li>
-                <li>Corporate & Bulk Purchasing </li>
-                <li>Returns & Refunds </li>
+              <li><Link to="/product_reviews">Product Reviews</Link></li>
+              <li><Link to="/money_back_guarantee">Money Back Guarantee</Link></li>
+              <li><Link to="/returns_refunds">Returns & Refunds</Link></li>
+              <li><Link to="/cancellation_policy">Cancellation Policy</Link></li>
+              <li><Link to="/faqs">FAQ</Link></li>
+
+
               </ul>
             </Col>
             <Col md={3} sm={5} className='box'>
@@ -43,6 +47,13 @@ const Footer = () => {
               </ul>
             </Col>
           </Row>
+          <div className="footer-bottom">
+          <Link to="/terms">Terms and Conditions</Link>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/policy">Privacy Policy</Link>
+          <Link to="/blogs">Blogs</Link>
+          <Link to="/faqs">FAQ</Link>
+          </div>
         </Container>
     </footer>
   )

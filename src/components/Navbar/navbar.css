@@ -3,19 +3,19 @@
 	position: relative !important;
 	background-color: white;
 	transition: all 0.3s ease-out 0s !important;
-	box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) ;
+	box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
 	font-size: 1.2rem !important;
 	/* z-index: 1000 !important; */
-	width:auto;
+	width: auto;
 	height: 80px;
 }
 
 .input-group {
 	width: 37%;
 	position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
 	margin-left: 5rem;
 }
 
@@ -142,9 +142,9 @@
 .navbar-link {
 	display: flex !important;
 	text-decoration: none;
-	justify-content:center;
+	justify-content: center;
 	align-items: center;
-	gap: 5px;
+	gap: 1px;
 	font-size: 10px !important;
 	padding: 0.8rem 0.5rem 0.2rem !important;
 	border: #0f3460;
@@ -171,7 +171,7 @@
 .nav-icon {
 	width: 30px;
 	height: 30px;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	cursor: pointer;
 }
 
@@ -207,15 +207,15 @@
 
 .navbar-nav .nav-item {
 	position: relative;
-	padding-bottom: 3px !important;
+	padding-bottom: 15px !important;
 	margin: 0 1rem;
 	font-weight: 400;
 	transition: all 0.3s ease-out 0s;
 	position: relative;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: center;
-	gap: 10px;
+	gap: 15px;
 	z-index: 1;
 }
 
@@ -232,6 +232,7 @@
 		width: 25px !important;
 		height: 3px !important;
 	}
+
 	ion-icon {
 		font-size: 20px;
 	}
@@ -253,79 +254,77 @@
 
 
 .sublink {
-	display: none; 
-	position:absolute; 
-	top: 100%; 
-	left: 0; 
-	background-color: #fff; 
-	border: 1px solid #ccc; 
-	padding: 5px; 
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
 	max-width: auto;
-  }
-  .sublink h6 {
+}
+
+.sublink h6 {
 	color: black;
 	text-decoration: none;
-  }
-  .sublink hr {
+}
+
+.sublink hr {
 	color: black;
 	text-decoration: none;
 	width: 10em;
-  }
-  
-  .sublink a {
+}
+
+.sublink a {
 	color: black;
 	text-decoration: none;
 	display: block;
 	font-size: small;
-  }
-  
-  
-  .nav-item:hover .sublink {
-	display: block; 
-  }
-  
+}
+
+
+.nav-item:hover .sublink {
+	display: block;
+}
+
 /* Reponsiveness */
 @media (max-width: 767px) {
 	.sublink {
-	  width: 100%; 
-	  padding: 5px; 
+		width: 100%;
+		padding: 5px;
 	}
-  
+
 	.sublink h6 {
-	  font-size: 16px; 
+		font-size: 16px;
 	}
-  
+
 	.sublink a {
-	  font-size: 14px; 
-	  padding: 8px 0; 
+		font-size: 14px;
+		padding: 8px 0;
 	}
-  
+
 	.nav-item:hover .sublink {
-	  display: block;
+		display: block;
 	}
-  }
+}
 
 /* Add styling for the "iPhone Cases" section */
 .section-header {
 	margin-top: 0.5rem;
 	font-weight: bold;
-  }
-  
-  .sublink h6 + hr {
+}
+
+.sublink h6+hr {
 	margin-top: 0.5rem;
-  }
-  
-  .sublink a {
+}
+
+.sublink a {
 	margin-left: 1rem;
 	text-decoration: none;
 	color: rgba(80, 80, 80, 1);
 	font-size: 14px;
-  }
-  
-  .sublink a:hover {
+}
+
+.sublink a:hover {
 	text-decoration: underline;
-  }
-	
-
-
-  
+}

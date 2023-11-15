@@ -22,7 +22,7 @@ const ScreenProtectorMain = () => {
             <div className="banner-protector">
                 <img src={banner} alt="" />
             </div>
-             <h4>Find Screen Protectors for your device</h4>
+             <h4 className="pHeading">Find Screen Protectors for your device</h4>
              <hr/>
 
             <div>

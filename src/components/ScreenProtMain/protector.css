@@ -29,3 +29,18 @@
         max-width: 80%;
     }
 }
+/* Responsive for iPad */
+@media only screen and (max-width: 768px) {
+ .pHeading {
+    margin-left: 10em; 
+    margin-top: 2px;
+  }
+}
+
+/* Responsive for Mobile*/
+@media only screen and (max-width: 480px) {
+  .pHeading {
+    margin-left: 2em; 
+    margin-top: 2px;
+  }
+}

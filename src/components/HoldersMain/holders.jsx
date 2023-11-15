@@ -26,7 +26,7 @@ const HolderMain = () => {
                     <img src="https://smartphone-accessories.co.uk/media/catalog/category/holders1.jpeg" alt="" />
                     <p>Using a phone holder while driving in the UK is crucial for safety and compliance. By securing your phone in a holder, you keep both hands on the wheel and maintain better control of your vehicle, reducing the risk of accidents. Moreover, it helps prevent distractions caused by holding the phone in your hand or looking down to check directions, ensuring your focus remains on the road. Utilizing a phone holder also ensures compliance with UK laws, which prohibit the use of handheld devices while driving. Prioritizing safety through a phone holder promotes responsible driving, protecting you and others on the road.</p>
             </div>
-             <h4>Find Accessories For Your Device</h4>
+             <h4 className="holderHeading">Find Accessories For Your Device</h4>
              <hr/>
             <div>
                 <Section title="" bgColor="#bdc3c7" productItems={discoutProducts} addToCart={addToCart} />
