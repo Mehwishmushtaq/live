@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 // import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"; // Importing the icons
 import './FAQS.css';
-import FaQBanner from '../../Images/footer5.png'
 
 const FAQS = () => {
   const [faqData, setFaqData] = useState([
@@ -40,9 +39,6 @@ const FAQS = () => {
 
   return (
     <div>
-    <div className='faq-banner'>
-        <img src={FaQBanner} alt="" />
-      </div>
     <div className="faq-container">
       <h1>Frequently Asked Questions</h1>
       <div className="faq-list">
