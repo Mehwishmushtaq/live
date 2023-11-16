@@ -5,6 +5,7 @@
   
   .guarantee-page  h5 {
     color: #333;
+    margin-top: 10px;
   }
   
   .guarantee-page  ul {
@@ -22,5 +23,10 @@
   
   .guarantee-page p {
     color: #555;
+  }
+
+  .f-banner img{
+    width: 100%;
+    height:auto;
   }
   

@@ -1,5 +1,7 @@
 import React from 'react';
 import "./moneyBack.css"
+import FBanner from '../../Images/footer2.png'
+
 
 const GuaranteePage = () => {
   const guaranteePoints = [
@@ -23,6 +25,9 @@ const GuaranteePage = () => {
 
   return (
     <div className="guarantee-page">
+      <div className='f-banner'>
+        <img src={FBanner} alt="" />
+      </div>
       <h5>Money Back Guarantee</h5>
       <p>We stand behind our products and services. Your satisfaction is our top priority.</p>
 

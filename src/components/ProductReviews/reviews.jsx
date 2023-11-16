@@ -1,9 +1,13 @@
 import React from 'react';
 import './reviews.css';
+import FBanner from '../../Images/footer1.png'
 
 const ProductReview = () => {
   return (
     <div className="product-review-container">
+      <div className='f-banner'>
+        <img src={FBanner} alt="" />
+      </div>
       <h5>Customer Feedback and Reviews</h5>
 
         <p>

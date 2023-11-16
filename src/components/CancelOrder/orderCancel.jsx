@@ -1,9 +1,13 @@
 import React from 'react';
 import './orderCancel.css';
+import FBanner from '../../Images/footer4.png'
 
 const CancellationPolicyPage = () => {
   return (
     <div className="policy-page">
+      <div className='f-banner'>
+        <img src={FBanner} alt="" />
+      </div>
       <h4>Cancellation Policy</h4>
 
       <section>

@@ -6,6 +6,11 @@
   padding: 20px;
 }
 
+.faq-banner{
+  width: 100%;
+  height: auto;
+}
+
 .faq-container h1 {
   color: darkslategray;
 }

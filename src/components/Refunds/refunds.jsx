@@ -1,10 +1,15 @@
 import React from 'react';
 import './refunds.css';
+import FBanner from '../../Images/footer3.png'
+
 
 const RefundsReturnsPage = () => {
   return (
     <div className="policy-page">
-      <h4>Refunds & Returns Policy</h4>
+      <div className='f-banner'>
+        <img src={FBanner} alt="" />
+      </div>
+      {/* <h4>Refunds & Returns Policy</h4> */}
 
       <section>
         <h5>1. Refund Timeline:</h5>

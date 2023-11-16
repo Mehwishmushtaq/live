@@ -6,6 +6,7 @@
   
   .policy-page h4{
     color: #333;
+    margin-top: 10px;
   }
   .policy-page h5{
     color: #333;
@@ -28,5 +29,10 @@
   
   .policy-page p {
     color: #555;
+  }
+  
+  .f-banner img{
+    width: 100%;
+    height:auto;
   }
   
