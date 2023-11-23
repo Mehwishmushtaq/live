@@ -161,7 +161,9 @@ const NavBar = () => {
                   <Link to="/cases">iPhone 15 Cases</Link>
                   <Link to="/cases">iPhone 15 Pro Cases</Link>
                   <Link to="/cases">iPhone 15 Plus Cases</Link>
-                  <h6 className="section-header">Google Cases</h6>
+                  <Link aria-label="Go to iPhone Cases Page" className="section-header" to="/iphone-cases" onClick={() => setExpand(false)}>
+                    <h6 className="section-header">Google Cases</h6>
+                  </Link>
                   <hr className="m-0" />
                   <Link to="/cases">Google Pixel Fold Cases</Link>
                   <Link to="/cases">Google Pixel 8 Cases</Link>
@@ -229,7 +231,7 @@ const NavBar = () => {
               <hr className="m-0" /> */}
 
               <Nav.Item>
-                <Link aria-label="Go to Cart Page" className="navbar-link row" to="/cart" onClick={() => setExpand(false)}>
+                <Link aria-label="Go to Power Banks Page" className="navbar-link row" to="/power-banks" onClick={() => setExpand(false)}>
                   <img src="https://static.priceoye.pk/images/home/power-banks.svg" className="nav-img" alt='' />
                   <span className="nav-link-label">Power Banks</span>
                 </Link>

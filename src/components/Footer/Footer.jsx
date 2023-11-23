@@ -2,8 +2,10 @@ import React from "react"
 import "./style.css"
 import { Col, Container, Row } from "react-bootstrap"
 import { Link } from 'react-router-dom';
-import { IonIcon } from '@ionic/react';
-import { logoFacebook, logoInstagram, logoTwitter, logoLinkedin } from 'ionicons/icons';
+// import { IonIcon } from '@ionic/react';
+// import { logoFacebook, logoInstagram, logoTwitter, logoLinkedin } from 'ionicons/icons';
+import { FaFacebook, FaInstagram, FaTwitter, FaGoogle } from "react-icons/fa"; // Importing the icons
+
 
 
 const Footer = () => {
@@ -18,18 +20,15 @@ const Footer = () => {
             </div>
             <p>Discover a world of mobile accessories, including chargers, cases, and headphones. Improve your mobile experience by partnering with us today.</p>
             <div className="social-icons">
-              <a href="https://www.facebook.com/">
-                <IonIcon icon={logoFacebook} className="icon" />
-              </a>
-              <a href="https://www.instagram.com/">
-                <IonIcon icon={logoInstagram} className="icon" />
-              </a>
-              <a href="https://twitter.com/">
-                <IonIcon icon={logoTwitter} className="icon" />
-              </a>
-              <a href="https://www.linkedin.com/">
-                <IonIcon icon={logoLinkedin} className="icon" />
-              </a>
+              <a href="https://www.facebook.com/" target="fa"><FaFacebook size={30} /></a>
+              <a href="https://www.instagram.com/" target="insta"><FaInstagram size={30} /></a>
+              <a href="https://twitter.com/" target="tweet"><FaTwitter size={30} /></a>
+              <a href="https://www.google.com/" target="google"><FaGoogle size={30} /></a>
+            </div>
+            {/* Email Us Placeholder */}
+            <div className="email-us">
+                <h2>Email Us</h2>
+                <input type="text" id="email-input" name="email" placeholder="Enter your email" />
             </div>
           </Col>
           <Col md={3} sm={5} className='box'>

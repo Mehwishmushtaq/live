@@ -24,7 +24,7 @@ const SamsungFE = () => {
       </div>
 
       <div>
-        <Section title="Samsung Galaxy S23 FE Cases" bgColor="#BDC581" productItems={discoutProducts} addToCart={addToCart} />
+        <Section title="Samsung Galaxy S23 FE Cases" bgColor="#bdc3c7" productItems={discoutProducts} addToCart={addToCart} />
 
       </div>
       {/* <div>

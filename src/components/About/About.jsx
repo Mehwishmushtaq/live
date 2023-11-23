@@ -1,15 +1,13 @@
 import React from "react";
-import "./About.css"; // Importing CSS file for styling
-import bannerImage from "../../Images/dk-banner-static.jpeg"; // Importing banner image
-import { FaFacebook, FaInstagram, FaStar, FaTwitter, FaGoogle } from "react-icons/fa"; // Importing the icons
+import "./About.css";
+import bannerImage from "../../Images/dk-banner-static.jpeg";
+import { FaStar } from "react-icons/fa";
 const AboutPage = () => {
     return (
         <div className="about-page">
             <div className="about-banner">
                 <img src={bannerImage} alt="banner" className="about-banner-image" />
-                {/* <div className="about-banner-text">
-                    <h2>About Us</h2>
-                </div> */}
+
             </div>
             <h1 className="h1">About Mobile Accessories</h1>
 
@@ -69,20 +67,10 @@ const AboutPage = () => {
                     <p>CEo & Founder At Company</p>
                 </div>
             </div>
-            {/* Email Us Placeholder */}
-            <div className="email-us">
-                <h2>Email Us</h2>
-                <input type="text" id="email-input" name="email" placeholder="Enter your email" />
-            </div>
-            <div className="social-icons">
-                <button>Subscribe</button>
-                <a href="/" target="_blank"><FaFacebook size={30} /></a>
-                <a1 href="/" target="_blank"><FaInstagram size={30} /></a1>
-                <a href="/" target="_blank"><FaTwitter size={30} /></a>
-                <a2 href="/" target="_blank"><FaGoogle size={30} /></a2>
-            </div>
+            
+           
         </div>
-        
+
     );
 
 };

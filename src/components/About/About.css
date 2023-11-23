@@ -1,10 +1,7 @@
-/* CSS in your About.css or a separate CSS file */
-
 .about-page {
   text-align: justify;
   padding: 20px;
   background: #f0f0f0;
-  /* Setting a background color for the entire section */
 }
 
 .about-banner {
@@ -17,14 +14,11 @@
 
 .about-banner-image {
   width: 100%;
-  /* Adjust the image width as needed */
   max-height: 70vh;
   display: block;
   border: 1px solid #ddd;
-  /* Adding a border to the image */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Adding a subtle box shadow */
-  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(31, 29, 29, 0.1);
+  /* border-radius: 10px; */
 }
 
 .about-banner-text {
@@ -32,12 +26,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background: rgba(0, 0, 0, 0.7); Semi-transparent background for the text */
   color: #fff;
   padding: 10px 20px;
-  /* Add padding to the text box */
   border-radius: 5px;
-  /* Add rounded corners to the text box */
 }
 
 .h1 {
@@ -55,35 +46,31 @@
 }
 
 .about-content {
-  text-align: left; /* Center the content text horizontally */
+  text-align: left; 
   justify-content: center;
-  background: #bdc3c7; /* Set a white background for the content */
-  padding: 20px 0; /* Equal padding on top and bottom, 0 on right and left */
-  border: 1px solid #ddd; /* Adding a border around the content */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
-  border-radius: 10px;
+  padding: 20px 0; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   width: 200vh;
-  margin-left: 10px;
   font-weight: 500;
   color:#2c3e50;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
   .about-content {
-    width: 100%; /* Make it full width for smaller screens */
-    margin: 0; /* Remove left margin for smaller screens */
+    width: 100%; 
+    margin: 0; 
   }
 }
 
 /* card styles*/
 
 .card-container {
-  display: grid; /* Use CSS Grid for layout */
+  display: grid; 
   grid-template-columns: repeat(3, 1fr); /* Three columns for laptop screen */
-  gap: 20px; /* Add some spacing between cards */
+  gap: 20px; 
 }
 
 /* Media query for mobile screens */
@@ -115,100 +102,26 @@
 
 .ratings{
   color: #f4c20d;
-  padding-left: 10px; /* Add left padding */
+  padding-left: 10px;
 
 }
 
 .card p {
   font-size: 14px;
   color: #2c3e50;
-  padding-left: 10px; /* Add left padding */
+  padding-left: 10px; 
 
 }
 
 .card-container .card img {
-  width: 100%; /* Ensures the image takes the full width of its container */
-  height: auto; /* Maintains the aspect ratio */
-  display: block; /* Remove any default inline spacing */
+  width: 100%; 
+  height: auto; 
+  display: block; 
 }
 
 .card-container .card img:not(:first-child) {
-  margin-top: 10px; /* Add a margin to separate images */
-}
-
-/* Style the "Email Us" and "Subscribe" container */
-.email-us {
-  /* background: #fff; Background color */
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
-  border-radius: 10px; /* Rounded corners */
-  text-align: center; /* Center the content horizontally */
-}
-
-/* Style the "Email Us" title */
-.email-us {
-  display:flex;
-  align-items: center;
-  margin-left: 2vh;
-  width: fit-content;
-}
-
-.email-us h2 {
-  font-size: 20px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  color:#30336b;
-}
-
-.email-us input {
-  width: 200px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-right: 5px;
-  text-align: center;
+  margin-top: 10px; 
 }
 
 
 
-/* Style the "Subscribe" button */
-.social-icons {
-  display: flex;
-  align-items: center;
-  margin-left: 10px ;
-}
-
-.social-icons button {
-  background:#30336b;
-  color: #fff;
-  border: none;
-  padding: 5px 15px ;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  margin: 5px; /* Add margin for spacing */
-  margin-right: 50px;
-}
-
-.social-icons a {
-  text-decoration: none;
-  color: #007bff;
-  margin: 5px; /* Add margin for spacing */
-}
-.social-icons a1 {
-  text-decoration: none;
-  color: #e95950;
-  margin: 5px; /* Add margin for spacing */
-}
-.social-icons a2 {
-  text-decoration: none;
-  color: #f4c20d;
-  margin: 5px; /* Add margin for spacing */
-}
-
-
-
-/* On hover, change the color of the icons */
-.social-icons a:hover {
-  color: #0056b3; /* Hover color */
-}

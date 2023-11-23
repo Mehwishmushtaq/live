@@ -21,7 +21,7 @@ footer .logo {
   align-items:center;
   gap:5px;
   margin-bottom: 10px;
-  margin-left: -35px;
+  margin-left: -20px;
 }
 footer h2 {
   font-size: 20px;
@@ -38,11 +38,47 @@ footer p {
 }
 
 /* social media icon */
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.social-icons a{
+  text-decoration: none;
+  color: #fff;
+  margin: 5px; 
+}
+
 .follows {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
+
+/*"Email Us" title */
+.email-us {
+  display:inline-flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.email-us h2 {
+  font-size: 15px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color:#fff;
+}
+
+.email-us input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
 
 .follows p {
   margin-right: 10px;

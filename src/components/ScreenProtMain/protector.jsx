@@ -20,10 +20,12 @@ const ScreenProtectorMain = () => {
         <Fragment>
             {/* <SliderHome /> */}
             <div className="banner-protector">
-                <img src={banner} alt="" />
+                <a href="/shop"> {/* Add the URL to the 'all-products' page */}
+                    <img src={banner} alt="Shop Now" />
+                </a>
             </div>
-             <h4 className="pHeading">Find Screen Protectors for your device</h4>
-             <hr/>
+            <h4 className="pHeading">Find Screen Protectors for your device</h4>
+            <hr />
 
             <div>
                 <Section title="" bgColor="#bdc3c7" productItems={discoutProducts} addToCart={addToCart} />

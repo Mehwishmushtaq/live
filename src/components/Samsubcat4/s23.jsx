@@ -19,8 +19,9 @@ const SamsungFE = () => {
     <Fragment>
       {/* <SliderHome /> */}
       <div className="banner-23">
-      <img src={banner} alt=""/>
-
+      <a href="/shop"> {/* Add the URL to the 'all-products' page */}
+        <img src={banner} alt="Order Now" />
+    </a>
       </div>
 
       <div>

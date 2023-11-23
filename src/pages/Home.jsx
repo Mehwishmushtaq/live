@@ -37,7 +37,7 @@ const Home = () => {
       </div>
 
       <div>
-        <Section title="Shop By Brands" bgColor="" productItems={bestSales} />
+        <Section title="Shop By Brands" bgColor="#bdc3c7" productItems={bestSales} />
       </div>
 
       <section className="bg-light">

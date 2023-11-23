@@ -19,8 +19,9 @@ const SamsungZFlip = () => {
     <Fragment>
       {/* <SliderHome /> */}
       <div className="banner-zflip">
-      <img src={banner} alt=""/>
-
+      <a href="/shop"> {/* Add the URL to the 'all-products' page */}
+        <img src={banner} alt="Buy Now" />
+    </a>
       </div>
 
       <div>

@@ -29,7 +29,7 @@ const IPhonecases = () => {
       </div>
 
       <div>
-        <Section title="iPhone Cases" bgColor="#BDC581" productItems={IPhoneCases} addToCart={addToCart} />
+        <Section title="iPhone Cases" bgColor="#bdc3c7" productItems={IPhoneCases} addToCart={addToCart} />
 
       </div>
       {/* <div>
