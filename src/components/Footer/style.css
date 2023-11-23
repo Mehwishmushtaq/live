@@ -58,9 +58,10 @@ footer p {
 
 /*"Email Us" title */
 .email-us-footer {
-  display:flex;
+  display:block;
   align-items: center;
   width: fit-content;
+  gap: 2px;
 }
 
 .email-us-footer h2 {
