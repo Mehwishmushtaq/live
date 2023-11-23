@@ -88,34 +88,4 @@
   }
 }
 
-/* Follow Us Container CSS */
-.follow-us-container {
-  display: flex;
-  align-items: center;
-  margin: 20px 20px; /* Adjust margin for responsiveness */
-}
 
-.follow-us-container span {
-  font-weight: bold;
-  font-size: 24px; /* Adjust font size for smaller screens */
-  margin-right: 10px;
-  display: inline-block;
-  color: darkslategray;
-}
-
-.social-icons {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.icon {
-  font-size: 32px; /* Adjust icon size for smaller screens */
-  margin: 0 5px; /* Reduce margin for smaller screens */
-  color: #007bff;
-  text-decoration: none;
-}
-
-.icon:hover {
-  color: cadetblue;
-}

@@ -58,20 +58,6 @@ const FAQS = () => {
 
         ))}
 
-        {/* <div className="follow-us-container">
-          <span>Follow Us:</span>
-          <div className="social-icons">
-            <a href="faicon">
-              <FaFacebook className="icon" />
-            </a>
-            <a href="instaicon">
-              <FaInstagram className="icon" />
-            </a>
-            <a href="twittericon">
-              <FaTwitter className="icon" />
-            </a>
-          </div>
-        </div> */}
       </div>
     </div>
   </div>

@@ -26,7 +26,7 @@ const Footer = () => {
               <a href="https://www.google.com/" target="google"><FaGoogle size={30} /></a>
             </div>
             {/* Email Us Placeholder */}
-            <div className="email-us">
+            <div className="email-us-footer">
                 <h2>Email Us</h2>
                 <input type="text" id="email-input" name="email" placeholder="Enter your email" />
             </div>
