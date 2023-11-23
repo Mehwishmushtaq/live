@@ -72,7 +72,7 @@ const ProductDetails = () => {
                             </div>
                             <div className="info">
                                 <span className="price">${selectedProduct?.price}</span>
-                                {/* <h4>Category: </h4><h5>{selectedProduct?.category}</h5> */}
+                                <h4>Category: </h4><h5>{selectedProduct?.category}</h5>
                             </div>
                             <p>{selectedProduct?.shortDesc}</p>
 
