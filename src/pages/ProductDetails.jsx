@@ -72,15 +72,18 @@ const ProductDetails = () => {
                             </div>
                             <div className="info">
                                 <span className="price">${selectedProduct?.price}</span>
-                                {/* <h4>Category: </h4><h5>{selectedProduct?.category}</h5> */}
+                                <h4>Category: </h4><h5>{selectedProduct?.category}</h5>
                             </div>
                             <p>{selectedProduct?.shortDesc}</p>
 
                             <span className="qty-counter">
-                                <button className="incCart" onClick={increment}><FontAwesomeIcon icon={faPlus} /></button>
+                                <button className="incCart" style={{ background: 'none', border: 'none', cursor: 'pointer' }} onClick={increment}>
+                                    <FontAwesomeIcon icon={faPlus} />
+                                </button>
                                 <input className="qty-input" type="number" placeholder="Qty" value={count} onChange={handleQuantityChange} />
-                                <button className="desCart" onClick={decrement}><FontAwesomeIcon icon={faMinus} /></button>
-                            </span>
+                                <button className="desCart" style={{ background: 'none', border: 'none', cursor: 'pointer' }} onClick={decrement}>
+                                    <FontAwesomeIcon icon={faMinus} />
+                                </button>                            </span>
 
                             <button aria-label="Add" type="submit" className="add" onClick={() => handelAdd(selectedProduct, count)}>Add To Cart</button>
                             <section className="product-description">
@@ -97,7 +100,7 @@ const ProductDetails = () => {
                                         <li>Integrated card slots</li>
 
                                     </ul>
-                                    <hr/>
+                                    <hr />
                                     <h4>Product Description</h4>
                                     <h6>Protection</h6>
                                     <p>{selectedProduct?.protectionDescription}</p>
