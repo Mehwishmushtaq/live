@@ -47,9 +47,8 @@
 
 .about-content {
   text-align: left; 
-  justify-content: center;
+  justify-content:center;
   padding: 20px 0; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   width: 200vh;
   font-weight: 500;
   color:#2c3e50;
@@ -88,8 +87,8 @@
   background: #ecf0f1;
   margin: 0 10px;
   border-radius: 20px; */
-  width: 100%; /* Make the cards full width on smaller screens */
-  margin: 10px 0; /* Add vertical spacing between cards */
+  width: 100%; 
+  margin: 10px 0; 
 }
 
 .card h3 {
